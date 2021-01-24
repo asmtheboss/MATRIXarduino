@@ -1,8 +1,8 @@
 #include <Arduino.h>
+
 int VCCpin_9 = PA0, VCCpin_14 = PA2, VCCpin_8 = PA3, VCCpin_12 = PA9, VCCpin_1 = PA7, VCCpin_7 = PA4, VCCpin_2 = PA6, VCCpin_5 = PA5;
 int GNDpin_13 = PB4, GNDpin_3 = PB11, GNDpin_4 = PB10, GNDpin_10 = PB12, GNDpin_6 = PB1, GNDpin_11 = PB3, GNDpin_15 = PB5, GNDpin_16 = PA8;
-/*int pin_1 = PA7, pin_2 = PA6, pin_3 = PB11, pin_4 = PB10, pin_5 = PA5, pin_6 = PB1, pin_7 = PA4, pin_8 = PA3,
-pin_9 = PA0, pin_10 = PB12, pin_11 = PB3, pin_12 = PA10, pin_13 = PB4, pin_14 = PA9, pin_15 = PB5, pin_16 = PA8;*/
+
 
 void matrixSetup(){
 
@@ -659,3 +659,32 @@ void fila_8 (int led_1, int led_2, int led_3, int led_4,
         digitalWrite(GNDpin_16, HIGH);
     }
 }
+/*
+void ajedrez(){
+
+  fila_1(1,0,1,0,1,0,1,0);
+  fila_1(0,0,0,0,0,0,0,0);
+  delay(0.001);
+  fila_2(0,1,0,1,0,1,0,1);
+  fila_2(0,0,0,0,0,0,0,0);
+  delay(0.001);
+  fila_3(1,0,1,0,1,0,1,0);
+  fila_3(0,0,0,0,0,0,0,0);
+  delay(0.001);
+  fila_4(0,1,0,1,0,1,0,1);
+  fila_4(0,0,0,0,0,0,0,0);
+  delay(0.001);
+  fila_5(1,0,1,0,1,0,1,0);
+  fila_5(0,0,0,0,0,0,0,0);
+  delay(0.001);
+  fila_6(0,1,0,1,0,1,0,1);
+  fila_6(0,0,0,0,0,0,0,0);
+  delay(0.001);
+  fila_7(1,0,1,0,1,0,1,0);
+  fila_7(0,0,0,0,0,0,0,0);
+  delay(0.001);
+  fila_8(0,1,0,1,0,1,0,1);
+  fila_8(0,0,0,0,0,0,0,0);
+  delay(0.001);
+
+}*/
