@@ -1,12 +1,14 @@
 #include <Arduino.h>
 #include <788BSmatrixSetup.h>
 #include <simbolos.h>
+#include <LCD.h>
+
 
 int a = 0;
-int boton = PB6;
+int boton = PB14;
 
 void setup() {
-
+  lcd.begin(16,2);
   matrixSetup();
   pinMode(boton, INPUT);
 
@@ -14,11 +16,5 @@ void setup() {
 
 void loop() {
 
-if(digitalRead(boton) == HIGH){
-  tick();
-}
-if(digitalRead(boton) == LOW){
-  cruz();
-}
 
 }

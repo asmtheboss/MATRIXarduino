@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-int VCCpin_9 = PA0, VCCpin_14 = PA2, VCCpin_8 = PA3, VCCpin_12 = PA9, VCCpin_1 = PA7, VCCpin_7 = PA4, VCCpin_2 = PA6, VCCpin_5 = PA5;
+int VCCpin_9 = PA0, VCCpin_14 = PA2, VCCpin_8 = PA3, VCCpin_12 = PA1, VCCpin_1 = PA7, VCCpin_7 = PA4, VCCpin_2 = PA6, VCCpin_5 = PA5;
 int GNDpin_13 = PB4, GNDpin_3 = PB11, GNDpin_4 = PB10, GNDpin_10 = PB12, GNDpin_6 = PB1, GNDpin_11 = PB3, GNDpin_15 = PB5, GNDpin_16 = PA8;
 
 
