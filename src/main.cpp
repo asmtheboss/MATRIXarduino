@@ -1,6 +1,5 @@
 #include <Arduino.h>
 #include <788BSmatrixSetup.h>
-#include <simbolos.h>
 #include <LCD.h>
 
 
@@ -16,5 +15,5 @@ void setup() {
 
 void loop() {
 
-
-}
+  tick();
+} 
