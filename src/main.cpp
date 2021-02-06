@@ -40,7 +40,6 @@ void setup() {
 
 void loop() {
 
-<<<<<<< HEAD
   if(digitalRead(botonCorrecto) == HIGH && digitalRead(botonIncorrecto) == LOW){
     aceptada1 = true;
   }
@@ -356,7 +355,3 @@ void loop() {
 
 
 
-=======
-  tick();
-} 
->>>>>>> fb617d7da641202acdb0e3afea45eedf07868b7b

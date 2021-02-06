@@ -45,7 +45,6 @@ void matrixSetup(){
     pinMode(VCCpin_2,OUTPUT); pinMode(VCCpin_5,OUTPUT);
     pinMode(GNDpin_13,OUTPUT); pinMode(GNDpin_3,OUTPUT); pinMode(GNDpin_4,OUTPUT); pinMode(GNDpin_10,OUTPUT); pinMode(GNDpin_6,OUTPUT); pinMode(GNDpin_11,OUTPUT);
     pinMode(GNDpin_15,OUTPUT); pinMode(GNDpin_16,OUTPUT);
-<<<<<<< HEAD
 }
 
 void tickGrueso(){
@@ -220,76 +219,41 @@ void cruzGruesa(){
 void flechaFina(){
     //-----fila 1-----//
     VCCpin9_HIGH; GNDpin13_OPEN; GNDpin3_OPEN; GNDpin4_OPEN; GNDpin10_OPEN; GNDpin6_OPEN; GNDpin11_OPEN; GNDpin15_CLOSE; GNDpin16_CLOSE;
-=======
-}
-
-void tick(){
-    //-----fila 1-----//
-    VCCpin9_HIGH; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_CLOSE;
->>>>>>> fb617d7da641202acdb0e3afea45eedf07868b7b
     delay(1);
     VCCpin9_LOW; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_CLOSE;
     delay(1);
     //-----fila 2-----//
-<<<<<<< HEAD
     VCCpin14_HIGH; GNDpin13_OPEN; GNDpin3_OPEN; GNDpin4_OPEN; GNDpin10_OPEN; GNDpin6_OPEN; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_CLOSE;
-=======
-    VCCpin14_HIGH; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_OPEN;
->>>>>>> fb617d7da641202acdb0e3afea45eedf07868b7b
     delay(1);
     VCCpin14_LOW; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_CLOSE;
     delay(1);
     //-----fila 3-----//
-<<<<<<< HEAD
     VCCpin8_HIGH; GNDpin13_OPEN; GNDpin3_OPEN; GNDpin4_OPEN; GNDpin10_OPEN; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_OPEN;
-=======
-    VCCpin8_HIGH; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_OPEN; GNDpin16_OPEN;
->>>>>>> fb617d7da641202acdb0e3afea45eedf07868b7b
     delay(1);
     VCCpin8_LOW; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_CLOSE;
     delay(1);
     //-----fila 4-----//
-<<<<<<< HEAD
     VCCpin12_HIGH; GNDpin13_OPEN; GNDpin3_OPEN; GNDpin4_OPEN; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_OPEN; GNDpin16_OPEN;
-=======
-    VCCpin12_HIGH; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_OPEN; GNDpin15_OPEN; GNDpin16_CLOSE;
->>>>>>> fb617d7da641202acdb0e3afea45eedf07868b7b
     delay(1);
     VCCpin12_LOW; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_CLOSE;
     delay(1);
     //-----fila 5-----//
-<<<<<<< HEAD
     VCCpin1_HIGH; GNDpin13_CLOSE; GNDpin3_OPEN; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_OPEN; GNDpin15_OPEN; GNDpin16_OPEN;
-=======
-    VCCpin1_HIGH; GNDpin13_OPEN; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_OPEN; GNDpin11_OPEN; GNDpin15_CLOSE; GNDpin16_CLOSE;
->>>>>>> fb617d7da641202acdb0e3afea45eedf07868b7b
     delay(1);
     VCCpin1_LOW; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_CLOSE;
     delay(1);
     //-----fila 6-----//
-<<<<<<< HEAD
     VCCpin7_HIGH; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_OPEN; GNDpin11_OPEN; GNDpin15_OPEN; GNDpin16_OPEN;
-=======
-    VCCpin7_HIGH; GNDpin13_OPEN; GNDpin3_OPEN; GNDpin4_CLOSE; GNDpin10_OPEN; GNDpin6_OPEN; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_CLOSE;
->>>>>>> fb617d7da641202acdb0e3afea45eedf07868b7b
     delay(1);
     VCCpin7_LOW; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_CLOSE;
     delay(1);
     //-----fila 7-----//
-<<<<<<< HEAD
     VCCpin2_HIGH; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_OPEN; GNDpin6_OPEN; GNDpin11_OPEN; GNDpin15_OPEN; GNDpin16_OPEN;
-=======
-    VCCpin2_HIGH; GNDpin13_CLOSE; GNDpin3_OPEN; GNDpin4_OPEN; GNDpin10_OPEN; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_CLOSE;
->>>>>>> fb617d7da641202acdb0e3afea45eedf07868b7b
     delay(1);
     VCCpin2_LOW; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_CLOSE;
     delay(1);
     //-----fila 8-----//
-<<<<<<< HEAD
     VCCpin5_HIGH; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_OPEN; GNDpin11_OPEN; GNDpin15_OPEN; GNDpin16_OPEN;
-=======
-    VCCpin5_HIGH; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_OPEN; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_CLOSE;
->>>>>>> fb617d7da641202acdb0e3afea45eedf07868b7b
     delay(1);
     VCCpin5_LOW; GNDpin13_CLOSE; GNDpin3_CLOSE; GNDpin4_CLOSE; GNDpin10_CLOSE; GNDpin6_CLOSE; GNDpin11_CLOSE; GNDpin15_CLOSE; GNDpin16_CLOSE;
     delay(1);
